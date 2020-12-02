@@ -1,0 +1,35 @@
+{
+  "name": "products",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "qty": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "desc": {
+      "type": "string"
+    },
+    "productId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

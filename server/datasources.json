@@ -1,0 +1,16 @@
+{
+  "db": {
+    "host": "tim:fosque14@nodejs.mgnoa.mongodb.net/EmployeeDB?retryWrites=true&w=majority",
+    "database": "EmployeeDB",
+    "name": "db",
+    "connector": "mongodb",
+    "protocol": "mongodb+srv"
+  },
+  "store": {
+    "host": "tim:fosque14@nodejs.mgnoa.mongodb.net/Store?retryWrites=true&w=majority",
+    "database": "Store",
+    "name": "store",
+    "connector": "mongodb",
+    "protocol": "mongodb+srv"
+  }
+}

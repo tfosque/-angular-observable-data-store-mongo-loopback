@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "store"
+  },
+  "AccessToken": {
+    "dataSource": "store",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "store",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "store",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "store",
+    "public": false
+  },
+  "shoppingcart": {
+    "dataSource": "store",
+    "public": true
+  },
+  "products": {
+    "dataSource": "store",
+    "public": true
+  },
+  "cart": {
+    "dataSource": "store",
+    "public": true
+  },
+  "productsDB": {
+    "dataSource": "store",
+    "public": true
+  }
+}

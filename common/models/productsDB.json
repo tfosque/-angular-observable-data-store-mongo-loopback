@@ -1,0 +1,41 @@
+{
+  "name": "productsDB",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "desc": {
+      "type": "string"
+    },
+    "productId": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
