@@ -10,6 +10,9 @@
       "type": "string",
       "required": true
     },
+    "desc": {
+      "type": "string"
+    },
     "price": {
       "type": "number"
     },
@@ -18,19 +21,30 @@
     },
     "quantity": {
       "type": "number",
-      "required": true,
       "default": 1
-    },
-    "desc": {
-      "type": "string"
     },
     "productId": {
       "type": "string"
     },
-    "imgUrl": {
-      "type": "string"
+    "imgages": {
+      "type": "object"
     },
     "sku": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "array"
+    },
+    "size": {
       "type": "string"
     }
   },

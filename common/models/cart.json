@@ -19,12 +19,35 @@
     "total": {
       "type": "number"
     },
-    "qty": {
+    "quantity": {
       "type": "number",
-      "required": true,
       "default": 1
     },
     "productId": {
+      "type": "string"
+    },
+    "imgages": {
+      "type": "object"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "array"
+    },
+    "size": {
+      "type": "string"
+    },
+    "cartId": {
       "type": "string"
     }
   },
